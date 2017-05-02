@@ -1,6 +1,6 @@
 {
   "name": "payapi-debug",
-  "version": "2.6.5",
+  "version": "2.6.6",
   "repository": {
     "type": "git",
     "url": "git://github.com/visionmedia/debug.git"

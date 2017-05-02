@@ -110,7 +110,7 @@ function formatArgs(args) {
   var padding = 24 - name.length;
   if (useColors) {
     var c = this.color;
-    var prefix = '  \u001b[3' + c + ';1m' + name + Array(padding).join(' ') + '\u001b[0m';
+    var prefix = '\u001b[3' + c + ';1m' + name + Array(padding).join(' ') + '\u001b[0m';
 
     args[0] = prefix + args[0].split('\n').join('\n' + prefix);
     args.push('\u001b[3' + c + 'm+' + exports.humanize(this.diff) + '\u001b[0m');

@@ -108,6 +108,9 @@ function formatArgs(args) {
   var useColors = this.useColors;
 
   var padding = 24 - name.length;
+  if(padding <= 0) {
+    padding = 2;
+  }
   if (useColors) {
     var c = this.color;
     var prefix = '\u001b[3' + c + ';1m' + name + Array(padding).join(' ') + '\u001b[0m';

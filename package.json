@@ -1,6 +1,6 @@
 {
   "name": "payapi-debug",
-  "version": "2.6.9",
+  "version": "2.6.10",
   "repository": {
     "type": "git",
     "url": "git://github.com/payapi/debug.git"
@@ -17,7 +17,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "ms": "2.2.1"
+    "ms": "2.1.1"
   },
   "devDependencies": {
     "browserify": "9.0.3",
